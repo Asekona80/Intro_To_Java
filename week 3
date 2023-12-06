@@ -1,0 +1,228 @@
+Week 3 
+
+Java 
+
+DAY1 
+
+What is SDLC 
+
+The Software Development Life Cycle (SDLC) is a continuous process where software evolves through stages like planning, development, testing, and deployment.  
+
+Feedback from error reports feeds back into the cycle, leading to new features and improvements. Various methodologies exist, offering frameworks for development.  
+
+A structured plan is essential to avoid chaos in development, ensuring clarity for developers, project managers, and businesses regarding progress and meeting requirements. 
+
+ 
+
+Benefits: 
+
+Sure, here are shorter versions: 
+
+ 
+
+1. **Structure:SDLC provides a clear path from planning to deployment. 
+
+2. **Communication:  Enhances team and stakeholder communication. 
+
+3. **Quality: Ensures better software quality through testing. 
+
+4. **Risk Management: Identifies and tackles risks early on. 
+
+5. **Flexibility: Allows for adaptability to changes and feedback. 
+
+6. **Efficiency: Saves time and costs by planning effectively. 
+
+7. **Customer Satisfaction: Meets or exceeds customer needs. 
+
+ 
+
+Seven phases of SDLC 
+
+Requirements/ planning: 
+
+ The planning phase involves resource allocation, scheduling, cost estimation, and procurement. It produces project plans, schedules, cost estimates, and involves collaboration between different teams for comprehensive perspectives. 
+
+2. Defining/Feasibility phase: 
+
+- Requirements Gathering: Business communicates needs to IT teams for development/enhancement. 
+
+- Feasibility Checks:  Verify economic, legal, operational, technical, and scheduling aspects. 
+
+- Collaboration: Architects, Development teams, and Product Managers work with SMEs to document business processes to automate through software. 
+
+- Output: In Waterfall projects, a documented list of requirements is common, while Agile methods often create a backlog of tasks. 
+
+3.Design and Prototyping phase: 
+
+- Software Design:  Architects and developers craft the software using established patterns and frameworks like TOGAF for architecture. 
+
+- Design Documents: Two main types – High-Level Design (HLD) and Low-Level Design (LLD) – outline components, functionality, logic, interfaces, databases, and dependencies. 
+
+- Output: Design documents detailing patterns, components, module functionalities, architecture diagrams, database specifics, and module interfaces. 
+
+4. Coding/Software Development phase: 
+
+- Software Creation: Teams build the software, either through Agile sprints or continuous Waterfall efforts. 
+
+-  Focus: Aim to produce functional software swiftly, engaging stakeholders regularly to align with expectations. 
+
+-  Output: Testable, functional software is the key result of this phase. 
+
+5.Testing phase: 
+
+- Crucial Importance: Testing is vital for ensuring software quality. 
+
+-  Various Tests:  Code quality, unit, integration, performance, and security testing are essential measures. 
+
+-  Automation: Automation, using tools like Codeship, ensures regular and thorough testing. 
+
+-  Outcome:  The result is functional software, validated and prepared for deployment to a production environment. 
+
+6. Deployment phase: 
+
+- Automation Priority: Ideally, it’s highly automated, releasing software instantly in mature setups. 
+
+- Automation Tools: Application Release Automation (ARA) tools automate deployments, commonly integrated with Continuous Integration tools. 
+
+- Output: The result is the release of working software to Production environments, ensuring a seamless deployment process. 
+
+7. Operations and Maintenance phase: 
+
+- Continuous Monitoring: Involves constant monitoring of software for proper functioning. 
+
+- Bug Handling: Bugs discovered in Production are reported and addressed, often leading to iterative improvements. 
+
+- Regression Checks: Fixes are implemented cautiously, ensuring they don’t introduce new issues through abbreviated processes to prevent regressions. 
+
+ 
+
+DAY 2 
+
+SDLC MODELS 
+
+V-model 
+
+The V-Model in SDLC is sequential, resembling a V-shape, integrating testing phases for each development stage. 
+
+ It extends the waterfall model, associating a testing phase directly with each development phase.  
+
+Verification and validation phases align on either side of the V, with the coding phase linking the two sides together. 
+
+In Business Requirement Analysis: 
+
+- Customer-Centric: Focuses on understanding product requirements from the customer’s viewpoint. 
+
+- Detailed Communication: Involves thorough discussions with the customer to grasp expectations and precise needs. 
+
+- Clarification: Crucial phase as customers often aren’t entirely clear about their requirements. 
+
+- Acceptance Testing Preparation: Involves planning for acceptance tests using business requirements as input. 
+
+In System Design: 
+
+- **Hardware and Communication Setup:** Detailed design of the system's hardware and communication setup based on product requirements. 
+
+- **System Test Planning:** Developing the system test plan based on the system design to facilitate later test execution. 
+
+- **Architectural Design:** Proposing technical approaches, selecting based on feasibility, and breaking down into modules (High-Level Design - HLD). 
+
+- **Data Transfer and Integration:** Defining data exchange within modules and with external systems, aiding integration tests. 
+
+- **Module Design (Low-Level Design - LLD):** Detailed internal design of system modules, ensuring compatibility and aiding in unit test design to detect errors early. 
+
+Spiral model 
+
+- **Risk-Driven Approach:** Focuses on managing risks throughout the development process. 
+
+- **Adaptive Nature:** Adopts elements from various models like waterfall, incremental, and prototyping. 
+
+- **Best of Both Worlds:** Blends features from prototyping and waterfall models, emphasizing rapid prototyping and concurrent design and development activities. 
+
+ 
+
+In the Spiral Model have four phases: 
+
+- **Identification Phase:** Begins with gathering business requirements and progresses to system, subsystem, and unit requirements. It involves continuous customer-system analyst communication and ends with product deployment. 
+
+- **Design Phase:** Involves conceptual, architectural, module logical, and physical design across different spirals. 
+
+- **Construct or Build Phase:** Produces the software – from POC in the baseline to working models in subsequent spirals, sent for customer feedback. 
+
+- **Evaluation and Risk Analysis:** Includes identifying, estimating, and monitoring technical and management risks. The customer evaluates the software after the first iteration and provides feedback. 
+
+The Big Bang Model: 
+
+Pros: 
+
+**Simplicity:** Requires minimal planning and formal procedures. 
+
+**Ease of Management:** Simple and easy to manage. 
+
+**Flexibility:** Provides flexibility to developers. 
+
+**Learning Aid:** Useful for newcomers or students in understanding development. 
+
+Cons 
+
+**High Risk:** Very high risk and uncertainty. 
+
+**Unsuitable for Complexity:** Not suitable for complex or object-oriented projects. 
+
+**Ineffective for Long Projects:** Poor for long and ongoing projects. 
+
+**Costly Mistakes:** Can become expensive if requirements are misunderstood or change frequently. 
+
+Waterfall model 
+
+Advantages: 
+
+- **Simplicity:** Simple and easy to understand, manage, and arrange tasks due to its rigid structure. 
+
+- **Structured Phases:** Phases are processed one at a time with specific deliverables and reviews, ideal for smaller projects with clear requirements. 
+
+- **Clearly Defined Stages:** Well-defined milestones and stages facilitate easy documentation and understanding. 
+
+The Waterfall Model is straightforward, offering a step-by-step approach where each phase has defined deliverables and reviews, making it suitable for projects with clear, understood requirements. Its simplicity and structured nature aid in managing tasks effectively. 
+
+ 
+
+DAY 3 
+
+ AGILE MODEL 
+
+The Agile methodology revolutionized software development by prioritizing flexibility, teamwork, and continuous feedback over rigid planning. It breaks projects into smaller builds, emphasizing rapid development, customer collaboration, and adaptability to change. 
+
+ While promoting rapid progress and flexibility, it might struggle with complex dependencies and requires strong leadership, clear customer communication, and ongoing documentation challenges. 
+
+ Agile's strengths lie in its responsiveness and rapid delivery but may face hurdles with intricate projects and dependencies, relying heavily on customer clarity and consistent team collaboration for success. 
+
+Summary on SDLC 
+
+The Software Development Lifecycle (SDLC) is a structured process guiding the creation of high-quality software. It encompasses stages like requirement analysis, feasibility study, design, coding, testing, deployment, and maintenance. SDLC models like Waterfall, Agile, and others offer different approaches to this process. SDLC provides a detailed plan for developing and maintaining software, ensuring it meets customer requirements efficiently. 
+
+ 
+
+DAY 4 
+
+
+Software prototyping 
+
+Software prototyping involves creating a preliminary version of software with limited functionalities to gather user feedback, refine requirements, and guide development.  
+
+It's a stepwise process starting from basic requirement identification to prototype development, review, enhancements based on feedback, and iteration. Prototypes can be horizontal (focusing on interface) or vertical (detailing specific functions).  
+
+Types include Throwaway, Evolutionary, Incremental, and Extreme Prototyping. Prototyping is beneficial for systems with high user interaction, allowing early error detection, reducing failure risk, enhancing communication, and ensuring customer satisfaction. However, it can be time-consuming, costly, lead to excessive changes, and sometimes result in poor documentation or customer disinterest. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
